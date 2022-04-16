@@ -1,0 +1,45 @@
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1100px;
+    justify-content: center;
+}
+
+.item-container {
+    width: 30%;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.item-container img {
+    height: 320px;
+    width: 300px;;
+}
+
+.item-name {
+    padding: 20px;
+    font-size: 20px;
+    color: #000;
+    height: 45px;
+}
+
+.item-name:hover {
+    font-size: 24px;
+    color: blue;
+
+}
+
+
+.item-container > div:last-child {
+    padding: 10px;
+    background: #ccc;
+    text-align: center;
+}
+
+.item-name .sell {
+    color: red;
+}
