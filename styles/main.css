@@ -30,9 +30,7 @@
 .item-name:hover {
     font-size: 24px;
     color: blue;
-
 }
-
 
 .item-container > div:last-child {
     padding: 10px;
@@ -40,6 +38,20 @@
     text-align: center;
 }
 
-.item-name .sell {
+.sell {
     color: red;
+}
+
+.new {
+    display: none;
+}
+
+.item-container:hover .new {
+    display: inline;
+    color: red;
+    font-size: larger;
+}
+
+.item-container:hover .old {
+    display: none;
 }
